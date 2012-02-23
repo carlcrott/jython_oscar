@@ -1,7 +1,7 @@
 # run with:
 # jython tester.py
 
-# examples pulled/ modified from:
+# examples pulled/modified from:
 # https://bitbucket.org/wwmm/oscar4/wiki/Examples
 
 import sys
@@ -18,10 +18,10 @@ def setClassPath():
 
 def runJavaClass(process):
   from modified import Oscarizer
-  mc = Oscarizer()
+  inst = Oscarizer()
 
-  mc.setProcess(process)
-  codified = mc.oscarParse()
+  inst.setProcess(process)
+  codified = inst.oscarParse()
 
   print "PARSED: ", codified
 
