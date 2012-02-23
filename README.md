@@ -1,4 +1,4 @@
-# Setup
+# Example
 
 1. Compress "Oscarizer.class" into "modified.jar"
 
@@ -31,7 +31,8 @@ jython tester.py
 ##### should see something like:
 
 <pre>
-PARSED:  3-bromobenzophenone
+PARSED:
+3-bromobenzophenone
  
 MeOH
 [Structure:INCHI:InChI=1/CH4O/c1-2/h2H,1H3]
