@@ -23,7 +23,7 @@ def runJavaClass(process):
   inst.setProcess(process)
   codified = inst.oscarParse()
 
-  print "PARSED: ", codified
+  print "PARSED: \n", codified
 
 
 def main(process):
