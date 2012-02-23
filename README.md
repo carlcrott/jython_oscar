@@ -18,12 +18,12 @@ def setClassPath():
 
 4. Compile ( Note: modified classpath for non-IDE developers )
 <pre>
-javac -classpath /home/thrive/java_projects/JARs/commons-lang-2.1.jar:/home/thrive/java_projects/JARs/oscar4-all-4.1-with-dependencies.jar Oscarizer.java
+$ javac -classpath /home/thrive/java_projects/JARs/commons-lang-2.1.jar:/home/thrive/java_projects/JARs/oscar4-all-4.1-with-dependencies.jar Oscarizer.java
 </pre>
 
 5. Run
 <pre>
-jython tester.py
+$ jython tester.py
 </pre>
 
 
